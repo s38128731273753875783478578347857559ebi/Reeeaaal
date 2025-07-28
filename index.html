@@ -140,12 +140,12 @@
             waitingMessage.innerText = `There are ${randomNumber} on this site, please be patient as there may be delayed loading times.`;
         };
 
-        inputBox.addEventListener('input', function() {
+        inputBox.addEventListener('input', function() { // I seeeeeee youuuuuu
             const input = this.value.trim().toLowerCase();
             if (input === "") {
                 responseDiv.innerText = ""; // Display blank output when nothing is typed
-            } else if (input === "ambivalence") {
-                responseDiv.innerText = "NExT"; // Specific output for "ambivalence"
+            } else if (input === "Albums") {
+                responseDiv.innerText = "2"; // "Albums: 2"
             } else if (input === "museum music") {
                 responseDiv.innerText = "11111-2025-11111"; // Specific output for "museum music"
             } else if (input === "#440439") {
